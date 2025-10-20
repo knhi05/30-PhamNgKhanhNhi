@@ -27,6 +27,25 @@ if __name__ == "__main__":
     print("\nDanh sách sinh viên hiện có:")
     for sv in student_list:
         print(f"- {sv['name']} ({sv['year_of_birth']}, {sv['address']})")
+        
+ feature/print-list
+def print_student_list():
+    """
+    YÊU CẦU 2: Hoàn thiện hàm này.
+    - In ra tiêu đề "--- DANH SACH SINH VIEN ---".
+    - Nếu danh sách trống, in ra "Danh sach trong.".
+    - Nếu không, duyệt qua `student_list` và in thông tin mỗi sinh viên
+      theo định dạng:
+      " - Ten: [Họ tên], Nam sinh: [Năm sinh], Dia chi: [Địa chỉ]"
+    """
+    print("--- DANH SACH SINH VIEN ---")
+    if len(student_list) == 0:
+        print("Danh sach trong.")
+    else:
+        for student in student_list:
+            print(f" - Ten: {student['name']}, Nam sinh: {student['year_of_birth']}, Dia chi: {student['address']}")
+print_student_list()
 
 print("Hoàn thiện chức năng in danh sách sinh viên - version 2")
 
+main

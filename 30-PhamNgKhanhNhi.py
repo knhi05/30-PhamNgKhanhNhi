@@ -28,7 +28,6 @@ if __name__ == "__main__":
     for sv in student_list:
         print(f"- {sv['name']} ({sv['year_of_birth']}, {sv['address']})")
         
- feature/print-list
 def print_student_list():
     """
     YÊU CẦU 2: Hoàn thiện hàm này.

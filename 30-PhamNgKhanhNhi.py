@@ -72,4 +72,4 @@ if __name__ == "__main__":
 
     print("\nTÌM KIẾM SINH VIÊN:")
     search_student("Tran Thi Binh")
-    search_student("Nguyen Thi Mai")  # không có
+    search_student("Nguyen Thi Mai")  

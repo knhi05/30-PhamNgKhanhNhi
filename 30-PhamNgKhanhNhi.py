@@ -44,3 +44,5 @@ def print_student_list():
         for student in student_list:
             print(f" - Ten: {student['name']}, Nam sinh: {student['year_of_birth']}, Dia chi: {student['address']}")
 print_student_list()
+
+print("Hoàn thiện chức năng in danh sách sinh viên")

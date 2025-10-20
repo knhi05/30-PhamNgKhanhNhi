@@ -27,7 +27,8 @@ if __name__ == "__main__":
     print("\nDanh sách sinh viên hiện có:")
     for sv in student_list:
         print(f"- {sv['name']} ({sv['year_of_birth']}, {sv['address']})")
-
+        
+ feature/print-list
 def print_student_list():
     """
     YÊU CẦU 2: Hoàn thiện hàm này.
@@ -46,3 +47,5 @@ def print_student_list():
 print_student_list()
 
 print("Hoàn thiện chức năng in danh sách sinh viên")
+
+
